@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="calculatorstyle.css">
+</head>
+<body>
+
+    <div id="title">
+        <div id="mainTitle">What Do You Need On Your Final? </div>
+        <div id="clickbait">The Results Will Shock You</div>
+    </div>
+
+    <div id="entryInstructions">Separate grades with a comma, but no spaces.</div>
+    <div id="entryExample">Example: quiz grades: 88,93,74 <br> weighting of quizzes: 20</div>
+
+    <table border="1" cellpadding="5" id="entryTable" class="enterData">
+        <tr id="test">
+            <td><label for="testEntry">test grades:</label></td>
+            <td><input type="text" id="testEntry" value="100" size="25"></td>
+        </tr>
+
+        <tr>
+            <td><label for="testWeight">weighting of tests:</label></td>
+            <td><input type="text" id="testWeight" value="25" size="25"></td>
+        </tr>
+
+        <tr id="quiz">
+            <td><label for="quizEntry">quiz grades:</label></td>
+            <td><input type="text" id="quizEntry" value="90" size="25"></td>
+        </tr>
+
+
+        <tr>
+            <td><label for="quizWeight">weighting of quizzes:</label></td>
+            <td><input type="text" id="quizWeight" value="25" size="25"></td>
+        </tr>
+
+        <tr id="hw">
+            <td><label for="hwEntry">homework grades:</label></td>
+            <td><input type="text" id="hwEntry" value="80" size="25"></td>
+        </tr>
+
+        <tr>
+            <td><label for="hwWeight">weighting of homework:</label></td>
+            <td><input type="text" id="hwWeight" value="25" size="25"></td>
+        </tr>
+
+        <tr id="midterm">
+            <td><label for="midtermEntry">midterm grade:</label></td>
+            <td><input type="text" id="midtermEntry" value="70" size="25"></td>
+        </tr>
+
+        <tr>
+            <td><label for="midtermWeight">weighting of midterms:</label></td>
+            <td><input type="text" id="midtermWeight" value="25" size="25"></td>
+        </tr>
+
+    </table>
+
+
+<button id="calculateCurrentGrade" style="width:100px; height:60px;" onclick="calculateCurrentGrade()">Calculate My Grade</button>
+
+<div id="badDataMessage" class="badData"></div>
+
+<div id="weightAddToHundred" class="badData"></div>
+
+<div id="currentGrade"></div>
+
+<div id="enterFinalDesired"></div>
+
+<div id="calculateFinalButton"></div>
+
+<div id="badFinalWeightMessage" class="badData"></div>
+
+<div id="badFinalDataMessage" class="badData"></div>
+
+<div id="finalGradeNeeded"></div>
+
+<div id="newGrade"></div>
+
+<div id="signature">
+    <img id="smileyFace" src="http://clipartix.com/wp-content/uploads/2016/05/Smiley-face-orange-happy-face-clipart-clipart.png" alt="image not available" style="width:100px">
+    <div id="goodLuck">Good luck on your final!</div>
+</div>
+
+</body>
+</html>

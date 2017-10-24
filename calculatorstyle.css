@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: honeydew;
+    color: coral;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#title {
+    font-size: x-large;
+    margin: 2%;
+}
+
+#mainTitle {
+    font-weight: bold;
+}
+
+#clickbait {
+    font-style: italic;
+    color: darkslateblue;
+}
+
+button {
+    margin: 1%;
+    background-color: darkslateblue;
+    color: honeydew;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.badData {
+    color: crimson;
+}
+
+.enterData {
+    margin: auto;
+    border-color: black;
+}
+
+#entryExample {
+    margin-bottom: 2%;
+}
+
+#currentGrade {
+    margin-bottom: 2%;
+}
+
+#finalGradeNeeded {
+    margin-bottom: 2%;
+}
+
+#signature {
+    background-color: bisque;
+}
+
+#smileyFace {
+    margin-top: 1%;
+}
+
+#goodLuck {
+    margin-bottom: 1%;
+}
